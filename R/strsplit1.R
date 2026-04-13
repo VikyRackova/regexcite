@@ -1,3 +1,3 @@
-example_data <- data.frame(
-  word = c("apple", "banana", "cherry"),
-  count = c(3, 5, 2))
+strsplit1<- function(x,split){
+  strsplit(x, split = split)[[1]]
+}
